@@ -1,0 +1,48 @@
+body {
+  background-color: #343a40;
+}
+.list-group-item {
+  background-color: #000000;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px #cfc8c8; /* Dodaje sjaj oko ivica */
+  transition: all 0.3s ease; /* Ukljucuje glatki prelaz za interakciju */
+}
+
+.list-group-item:hover {
+  transform: scale(1.02); /* Blagi efekat zumiranja pri prelasku misa */
+  box-shadow: 0 0 15px #b44d0d; /* Intenzivniji sjaj */
+  background-color: #111111; /* Malo svetlija crna na hover */
+  box-shadow: 0 10px 20px #5109c5; /* Jaci sjaj */
+}
+.posao {
+  border: 10px transparent #3d0606; 
+  box-shadow: 0 5px 10px #7c0404; /* Blagi sjaj za efekat dubine */
+}
+.posao:hover {
+  box-shadow: 0 10px 20px #7c0404;
+}
+.putovanje {
+  border: 10px transparent #0db4b1; 
+  box-shadow: 0 5px 10px #0db4b1; /* Blagi sjaj za efekat dubine */
+}
+.putovanje:hover {
+  box-shadow: 0 10px 20px #0db4b1;
+}
+.licno {
+  border: 10px transparent #0d0db4; 
+  box-shadow: 0 5px 10px #0d0db4; /* Blagi sjaj za efekat dubine */
+}
+.licno:hover {
+  box-shadow: 0 10px 20px #0d0db4;
+}
+.zivot {
+  border: 10px transparent #039706; 
+  box-shadow: 0 5px 10px #039706; /* Blagi sjaj za efekat dubine */
+}
+.zivot:hover {
+  box-shadow: 0 10px 20px #039706;
+}
+
+.list-group-item h5, .list-group-item small {
+  color: #fff; /* Osiguravanje da su svi tekstovi beli */
+}
