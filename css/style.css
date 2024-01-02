@@ -46,3 +46,53 @@ body {
 .list-group-item h5, .list-group-item small {
   color: #fff; /* Osiguravanje da su svi tekstovi beli */
 }
+.dropdown-menu {
+  background-color: #435260;
+  border-color: #000000;
+}
+.dropdown-item:hover {
+  background-color: #435260; /* ili bilo koja druga boja */
+  color: white;
+}
+.putovanje1 {
+  color: #ffffff;
+  font-weight: 600;
+}
+.licno1 {
+  color: #ffffff;
+  font-weight: 600
+}
+
+.zivot1 {
+  color: #ffffff;
+  font-weight: 600;
+}
+.posao1 {
+  color: #ffffff;
+  font-weight: 600;
+}
+.putovanje1:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #0db4b1;
+  border-radius: 10px;
+  
+  transition: all 0.3s ease;
+}
+.licno1:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #0d0db4;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.zivot1:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #039706;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.posao1:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #7c0404;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
