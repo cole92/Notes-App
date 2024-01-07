@@ -15,10 +15,11 @@
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Sve beleske
                 </a>
-                <span class="navbar-text">
+                <span class="navbar-text" id="span12">
                     12 beleski
                 </span>
                 <ul class="dropdown-menu">
+                <li><a class="dropdown-item sveBeleske" href="#">Sve Beleske</a></li>
                   <li><a class="dropdown-item putovanje1" href="#">Putovanje</a></li>
                   <li><a class="dropdown-item licno1" href="#">Licno</a></li>
                   <li><a class="dropdown-item zivot1" href="#">Zivot</a></li>
@@ -27,11 +28,13 @@
               </div>
               <div class="container">
                 <form class="row justify-content-center">
-                    <div class="col-sm-10 my-2">
+                    <div class="col-12 col-sm-10 my-2">
                         <input class="form-control" type="search" placeholder="Pretrazi beleske" aria-label="Search">
                     </div>
-                    <div class="col-sm-2 text-right my-2">
-                        <button class="btn btn-secondary w-100" type="button">Dodaj belesku</button>
+                    <div class="col-12 col-sm-2 text-right my-2">
+                        <a href="newNotePage.html" class="w-100">
+                            <button id="dodajBeleskuBtn" class="btn btn-secondary w-100" type="button">Dodaj belesku</button>
+                        </a>
                     </div>
                 </form>
             </div>            
@@ -69,7 +72,6 @@
                     </div>
                 </a>
             </div>
-            <!-- Ponovite prethodni <a> tag za svaku belesku -->
         </div>
     </div>
 
