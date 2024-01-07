@@ -1,0 +1,243 @@
+body {
+  background-color: #343a40;
+}
+.list-group-item {
+  background-color: #000000;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px #cfc8c8; /* Dodaje sjaj oko ivica */
+  transition: all 0.3s ease; /* Ukljucuje glatki prelaz za interakciju */
+}
+
+.list-group-item:hover {
+  transform: scale(1.02); /* Blagi efekat zumiranja pri prelasku misa */
+  box-shadow: 0 0 15px #b44d0d; /* Intenzivniji sjaj */
+  background-color: #111111; /* Malo svetlija crna na hover */
+  box-shadow: 0 10px 20px #5109c5; /* Jaci sjaj */
+}
+.posao {
+  border: 10px transparent #3d0606; 
+  box-shadow: 0 5px 10px #7c0404; /* Blagi sjaj za efekat dubine */
+}
+.posao:hover {
+  box-shadow: 0 10px 20px #7c0404;
+}
+.putovanje {
+  border: 10px transparent #0db4b1; 
+  box-shadow: 0 5px 10px #0db4b1; /* Blagi sjaj za efekat dubine */
+}
+.putovanje:hover {
+  box-shadow: 0 10px 20px #0db4b1;
+}
+.licno {
+  border: 10px transparent #0d0db4; 
+  box-shadow: 0 5px 10px #0d0db4; /* Blagi sjaj za efekat dubine */
+}
+.licno:hover {
+  box-shadow: 0 10px 20px #0d0db4;
+}
+.zivot {
+  border: 10px transparent #039706; 
+  box-shadow: 0 5px 10px #039706; /* Blagi sjaj za efekat dubine */
+}
+.zivot:hover {
+  box-shadow: 0 10px 20px #039706;
+}
+.list-group-item h5, .list-group-item small {
+  color: #fff; /* Osiguravanje da su svi tekstovi beli */
+}
+.dropdown-menu {
+  background-color: #435260;
+  border-color: #000000;
+}
+.dropdown-item:hover {
+  background-color: #435260; /* ili bilo koja druga boja */
+  color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.putovanje1 {
+  color: #ffffff;
+}
+.licno1 {
+  color: #ffffff;
+}
+
+.zivot1 {
+  color: #ffffff;
+}
+.posao1 {
+  color: #ffffff;
+}
+.sveBeleske {
+  color: #ffffff;
+}
+.sveBeleske:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #405c5b;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.putovanje1:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #0db4b1;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.licno1:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #0d0db4;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.zivot1:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #039706;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.posao1:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #7c0404;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+#dodajBeleskuBtn {
+  background: linear-gradient(45deg, rgb(46, 46, 46) 0%, rgba(0,0,0,1) 100%);
+}
+#dodajBeleskuBtn:hover {
+  transform: scale(1.02);
+}
+.dropdown {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+#span12 {
+  margin-left: 20px; 
+  display: inline-block; 
+}
+/* Osnovni stil za ikone */
+.bi {
+  color: white; /* Bela boja za ikone */
+  
+  transition: transform 0.3s ease, color 0.3s ease; /* Glatka tranzicija za hover efekte */
+}
+
+/* Hover efekat za ikone */
+.bi:hover {
+  color: #b1abab; /* Malo tamnija nijansa bele za hover */
+  transform: scale(1.1); /* Uvecaj ikone za 10% */
+  cursor: pointer; /* Promeni kursor u pokazivac */
+}
+
+/* Stil za link dugme da bude bez ivica i pozadine */
+.btn-link {
+  background-color: transparent; /* Prozirna pozadina */
+  border: none; /* Bez ivica */
+  padding: 0; /* Bez padding-a */
+}
+#noteTitle {
+  max-width: 30%;
+}
+#noteContent {
+  margin-top: 100px;
+}
+.form-control{
+  border: solid rgb(0, 0, 0) 1px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+#categoryDropdown {
+  background-color: #435260;
+  border-color: #000000;
+}
+.putovanje2:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #0db4b1;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.licno2:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #0d0db4;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.zivot2:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #039706;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.posao2:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #7c0404;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+#noteDate {
+  color: white;
+  font-size:xx-large
+}
+#noteContent {
+  min-height: 150px; /* Postavlja minimalnu visinu za textarea */
+  resize: none; /* Onemogucava rucno razvlacenje textarea */
+}
+#creationTime {
+  color: white;
+}
+#noteTitle {
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.putovanje3:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #0db4b1;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.licno3:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #0d0db4;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.zivot3:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #039706;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.posao3:hover {
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: #7c0404;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.putovanje2 {
+  color: #ffffff;
+}
+.licno2 {
+  color: #ffffff;
+}
+
+.zivot2 {
+  color: #ffffff;
+}
+.posao2 {
+  color: #ffffff;
+}
+.putovanje3 {
+  color: #ffffff;
+}
+.licno3 {
+  color: #ffffff;
+}
+
+.zivot3 {
+  color: #ffffff;
+}
+.posao3 {
+  color: #ffffff;
+}
